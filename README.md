@@ -35,3 +35,15 @@ My work bridges corporate strategy, data ethics, and technical risk control, dra
 * AI Risk Mapping & Classification
 * Vendor Due Diligence for Foundation Models
 * Corporate Policy Drafting & Lifecycle Enforcement
+
+---
+
+## 👤 About Me
+Hi, my name is Rajat Sharma and I am a dedicated AI Governance, Risk, and Compliance professional focused on helping organizations responsibly deploy machine learning technologies. By translating abstract ethical principles and complex regulations (like the EU AI Act) into operational controls, I ensure AI systems remain safe, transparent, and legally compliant.
+
+* **Looking for:** Full-time opportunities, consulting engagements, or collaborative projects in AI Governance, Trust & Safety, and AI Risk Management.
+* **Open to:** Providing guidance to peers transitioning into the space, speaking engagements, and framework benchmarking.
+
+### 🤝 Let's Connect
+* **LinkedIn:** https://www.linkedin.com/in/rajat-sharma-pm/
+* **Email:** sharma.rajat.work@gmail.com
