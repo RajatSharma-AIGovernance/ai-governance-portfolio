@@ -68,4 +68,4 @@ The complete, production-ready **Enterprise AI Governance Toolkit** is hosted in
 ### 🚀 Need Implementation Assistance?
 If your organization is actively modernizing legacy mainframe systems with AI and requires localized implementation frameworks, customized risk registries, or expert guidance aligning with **ISO 42001 / AIGP**:
 
-👉 **[Connect with me on LinkedIn](https://linkedin.com)** or reach out via email at **sharma.rajat.work@gmail.com** to request a walkthrough or discuss consulting engagements.
+👉 **[Connect with me on LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/rajat-sharma-pm/))** or reach out via email at **sharma.rajat.work@gmail.com** to request a walkthrough or discuss consulting engagements.
