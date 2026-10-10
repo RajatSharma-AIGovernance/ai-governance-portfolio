@@ -1,10 +1,14 @@
 # Section 2 — Regional Regulations & Jurisdictional Handbooks
 
-> **🗂️ Document Control Reference**
-> * **Framework Index:** REG-SEC-2.0
-> * **Current Version:** v1.2
-> * **Last Operational Review:** October 2026
-> * *Note: All materials in this directory are strictly subject to the master legal disclaimer located in the repository root [README.md](../README.md).*
+## ⚖️ Legal Disclaimer & Terms of Use
+*The content provided within this directory and its sub-documents is intended solely for educational, informational, and professional portfolio demonstration purposes. It does not constitute formal legal advice, regulatory counseling, or professional compliance auditing. While every effort is made to maintain factual accuracy relative to shifting global regulatory benchmarks, users must consult qualified legal counsel or certified data protection authorities before implementing these frameworks in a commercial production environment. The author accepts no liability for operational, financial, or legal actions resulting from the independent application of this material.*
+
+---
+
+## 🌐 Directory Overview
+Artificial Intelligence applications do not operate in a legal vacuum. Every country and region enforces separate, independent regulatory requirements, data sovereignty mandates, and consumer protection laws. 
+
+This directory serves as a centralized operational repository mapping those independent geographic laws to concrete engineering and process controls [2.1]. It ensures that cross-border enterprise software delivery teams can easily navigate local compliance hurdles—such as data localization rules and automated decision-making constraints—prior to infrastructure rollout [2.1].
 
 ---
 
@@ -17,8 +21,3 @@
 * 🇦🇪 **[2.5 - Dubai & UAE Enterprise AI Governance Handbook](./2.5-dubai-uae-ai-governance-handbook.md)**
 * 🇺🇸 **[2.6 - United States AI Regulatory Manual](./2.6-united-states-ai-regulatory-manual.md)**
 * 🇦🇺 **[2.7 - Australia AI Governance & Guardrails Guide](./2.7-australia-ai-governance-guide.md)**
-
----
-
-## 🎯 Directory Objective
-This section acts as a practical operational repository for country-specific legal frameworks [2.1]. It translates complex geographic regulations, data localization mandates, and automated decision ordinances into step-by-step technical and process checkpoints for enterprise software delivery teams [2.1].
