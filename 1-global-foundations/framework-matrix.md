@@ -1,23 +1,30 @@
-# Global AI Governance Control Mapping Matrix
+# The Plain-English Guide to Global AI Rules
 
-This matrix serves as an enterprise harmonization tool. It maps core AI risk domains across prominent global standards and regulatory frameworks, allowing compliance teams to execute single-assessment multi-framework audits.
-
-## 📊 Cross-Framework Control Map
-
-| Risk Domain | ISO/IEC 42001 (AIMS) | IAPP AIGP Core Body | NIST AI RMF 1.0 | GDPR (AI Intersection) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Corporate AI Governance** | **Clause 5.1 & 5.2:** Leadership commitment and AI Policy requirements. | **Topic 2:** Foundations of AI Governance & Organizational Culture. | **GOVERN 1 & 2:** Culture of risk management and workforce diversity/training. | **Article 24:** Responsibility of the controller to implement policies. |
-| **AI System Intake & Inventory** | **Annex A.2.2:** Logging and maintaining inventory of active AI use cases. | **Topic 4.1:** AI System Identification & Classification Frameworks. | **MAP 1:** Contextualizing AI system impact and tracking system profiles. | **Article 30:** Records of data processing activities involving automated systems. |
-| **Risk Assessment & Mitigation** | **Clause 6.1.2 & Annex A.4:** Systemic AI risk assessment & treatment options. | **Topic 5.2:** Risk Management Lifecycle & Impact Assessments. | **MEASURE & MANAGE:** Tracking system vulnerabilities and applying technical guardrails. | **Article 35:** Data Protection Impact Assessment (DPIA) for high-risk processing. |
-| **Data Governance & Privacy** | **Annex A.5:** Data management lifecycle for AI training and deployment. | **Topic 4.3:** Data Privacy, Minimization, and Ethical Data Sourcing. | **GOVERN 4 / MAP 3:** Managing third-party data risks and data lineage validity. | **Articles 5 & 13/14:** Data minimization principles, fair processing notices. |
-| **Transparency & Explainability** | **Annex A.7:** Ensuring transparency, recording system outputs for audit. | **Topic 1.4:** Core Ethical Principles (Explainability & Contestability). | **MEASURE 2.4:** Evaluating explainability, interpretability, and system bias levels. | **Article 22 & 15:** Right to human intervention and meaningful logic explanations. |
-| **Vendor & Third-Party Risk** | **Annex A.10:** Vetting external AI suppliers and foundation model data lines. | **Topic 5.3:** Supplier Vetting, SLA Structuring, and Model Audits. | **GOVERN 3:** Third-party provider relationship and compliance tracking. | **Article 28:** Processor-controller contract obligations for AI tools. |
+When a company wants to build or buy an AI system, they face a mountain of global rules (like ISO 42001, NIST, and GDPR). This guide strips away the legal jargon and explains exactly what these rules mean in real life, what bad things happen if you ignore them, and how to fix them.
 
 ---
 
-## 🛠️ How to Utilize This Matrix in Enterprise Delivery
+## 🚦 1. AI System Intake: Knowing What You Are Building
+* **The Rule in Plain English:** You cannot govern what you don't know exists. Before anyone builds an AI tool, they must log it in a central company list.
+* **The Business Risk (If ignored):** "Shadow AI." Employees use corporate data on unvetted public AI tools, leading to massive company data leaks.
+* **The Practical Fix:** A simple 5-question mandatory intake form for any team wanting to use AI.
 
-1. **The Unified Intake Form:** When a business unit submits an AI project proposal, map the query fields to cover both **NIST MAP 1** and **ISO A.2.2** simultaneously. This cuts down project delays.
-2. **The Shared Artifact Strategy:** Do not create separate risk logs. Ensure your **Algorithmic Impact Assessment (AIA)** meets the criteria of an **ISO Clause 6.1.2 assessment**, an **IAPP Impact Assessment**, and a **GDPR DPIA**. 
-3. **Audit Readiness:** Use the domain headings above to categorize compliance evidence stored within your internal assurance repositories.
+## 🛡️ 2. Risk Assessment: Finding the Traps Early
+* **The Rule in Plain English:** You must check how dangerous your AI system could be before launching it to real users.
+* **The Business Risk (If ignored):** Launching an automated resume-screening AI that accidentally discriminates against candidates based on gender or age, leading to a public relations nightmare and lawsuits.
+* **The Practical Fix:** Test the AI with fake data first to check for unfair bias before it goes live.
 
+## 🔒 3. Data Governance: Feeding the Machine Safely
+* **The Rule in Plain English:** You must know exactly what data is going into your AI, where it came from, and if you have the legal right to use it.
+* **The Business Risk (If ignored):** Feeding confidential customer data or copyrighted material into an AI model, resulting in heavy government fines and forced deletion of your entire AI model.
+* **The Practical Fix:** Never feed raw customer data into an AI. Use data masking to strip out names, emails, and credit cards first.
+
+## 👁️ 4. Transparency: Explaining the AI's Decisions
+* **The Rule in Plain English:** If your AI rejects a customer's loan or job application, a human must be able to explain *why* the AI made that decision. No "black boxes" allowed.
+* **The Business Risk (If ignored):** Customers getting angry because they were rejected by a computer with zero explanation, violating laws like GDPR.
+* **The Practical Fix:** Always have a human customer service agent review AI rejections, and provide a clear, written reason to the user.
+
+## 🤝 5. Vendor Vetting: Trusting Outside AI Tools
+* **The Rule in Plain English:** If you buy an AI tool from a third-party software vendor, you are still legally responsible if their AI breaks the rules.
+* **The Business Risk (If ignored):** Buying a cool new AI chatbot that secretly saves your company's private conversations on an unsecured external server.
+* **The Practical Fix:** Make every external AI vendor sign a safety questionnaire proving where they store your data before you pay them.
