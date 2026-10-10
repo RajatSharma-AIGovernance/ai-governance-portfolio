@@ -1,0 +1,30 @@
+# OWASP Cloud-Native Application Security (CNAS) Manual
+
+This manual serves as a definitive security architecture reference for distributed corporate hosting environments. It covers the complete, official list for the **OWASP Cloud-Native Application Security Top 10**, providing technical terms, tracking codes, and plain-English translation matrices.
+
+---
+
+## 🏛️ Module 1: What is Cloud-Native Security and Why Does AI Governance Need It?
+
+### What is Cloud-Native Security?
+Cloud-native security is the practice of safeguarding containerized systems (like Docker), microservices, serverless code blocks, and elastic cloud infrastructure networks (like AWS or Azure) from structural exploitation and misconfigurations.
+
+### The Role in AI Governance
+Modern enterprise AI models require massive computational scaling. Companies host their model files, deploy vector databases, and orchestrate agent clusters directly within distributed cloud infrastructures. An insecure cloud container or an open storage cluster undermines all governance policies, rendering model-level compliance completely useless if the surrounding cloud infrastructure can be easily accessed from the public internet.
+
+---
+
+## 🛡️ Module 2: The Complete Cloud-Native Control Matrix
+
+| Official Code | Legal / Technical Security Term | Plain-English Meaning (What it is) | The Enterprise Risk (What breaks) | The Practical Defense (How to solve) |
+| :--- | :--- | :--- | :--- | :--- |
+| **CNAS1** | **Cloud Infrastructure Misconfiguration** | Weak access configurations or open rules inside your cloud management panel. | Leaving an AWS cloud storage bucket containing raw corporate training datasets wide open to the public internet. | Mandate Infrastructure-as-Code (IaC) linting and execute continuous automated cloud configuration auditing. |
+| **CNAS2** | **Insecure Container Images** | Deploying software using pre-packaged system container images that contain unverified code or malware. | A developer downloads a popular-looking Docker base image that secretly houses a cryptocurrency miner script. | Implement automated container registry scanning to detect vulnerabilities before images push to production. |
+| **CNAS3** | **Lack of Cloud-Native Logging** | Missing granular infrastructure and microservice communication traces. | A cloud server goes offline unexpectedly, but administrators cannot trace who made the change or why it happened. | Deploy distributed tracing tools (like OpenTelemetry) to capture container lifecycle and cluster states. |
+| **CNAS4** | **Over-Privileged Microservice Access** | Granting wide administrative system roles to small cloud components that only require local access. | A minor web helper service gets compromised, and because it has root cloud access, hackers take over the entire cloud account. | Enforce the principle of **Least Privilege**; issue isolated, short-lived IAM roles to individual microservices. |
+| **CNAS5** | **Insecure Secret Management** | Hardcoding database passwords, API tokens, or encryption keys directly inside application source code files. | Developers push their application code to a public repository, exposing production database passwords to the world. | Utilize dedicated cloud secret vaults (like AWS Secrets Manager or HashiCorp Vault) to inject tokens dynamically. |
+| **CNAS6** | **Weak Container Isolation Boundaries** | Deficiencies in runtime isolation that allow an application to escape its container boundary. | A hacker compromises an isolated web app container and executes an exploit to break out and control the host server. | Utilize hardened container runtimes, keep container engines patched, and avoid running applications as root. |
+| **CNAS7** | **Insecure Cloud Networking Topologies** | Allowing open communication pathways across internal cloud networks without access firewalls. | An attacker compromises a basic frontend service and freely traverses the open internal cloud network to reach a core asset. | Implement strict zero-trust network segmentation and utilize microservice service meshes with mutual TLS (mTLS). |
+| **CNAS8** | **Insecure Serverless Architectures** | Deploying serverless functions without setting input boundaries or execution time limits. | Attackers pass giant queries to a serverless function, forcing it to run indefinitely, leading to massive financial denial-of-wallet bills. | Define maximum timeout ceilings, configure memory execution caps, and sanitize all input arguments. |
+| **CNAS9** | **Outdated Infrastructure-as-Code Templates** | Utilizing old deployment scripts that configure weak network boundaries by default. | Setting up a new cloud server region using an old TerraForm script that leaves old database ports open to the public internet. | Maintain a centralized repository for verified IaC blueprints and mandate automated compliance checks. |
+| **CNAS10** | **Supply Chain Risks in Orchestration** | Integrating unverified third-party cloud management tools, pipeline plug-ins, or automation scripts. | A malicious CI/CD automated pipeline extension steals your private system keys during a code deployment cycle. | Vet and authorize third-party build extensions; pin exact cryptographic hashes on all orchestration plug-ins. |
