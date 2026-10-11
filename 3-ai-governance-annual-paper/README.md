@@ -18,5 +18,6 @@ This section houses annual, forward-looking industry briefings that track shifti
 
 ## 📋 Directory Table of Contents
 
-* 📄 **[3.1 - The State of Global AI Governance: 2026 Annual Paper](./3.1-2026-state-of-ai-governance.md)**: A comprehensive executive briefing detailing the tectonic regulatory shifts, automated exploits, enforcement timelines, and strategic tech-office recommendations for the upcoming year [2.1].
+* 📄 **[2026 Annual Paper: The State of Global AI Governance](./2026-annual-paper-the-state-of-global-ai-governance.md)**: A comprehensive enterprise research briefing detailing tectonic regulatory updates, autonomous exploits, upcoming enforcement calendars, and strategic C-suite recommendations.
+
 
