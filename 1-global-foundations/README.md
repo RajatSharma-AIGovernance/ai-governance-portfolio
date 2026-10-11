@@ -41,8 +41,13 @@ This master matrix connects these worlds, showing you exactly which framework to
 
 ---
 
-## 🔗 Direct Shortcut Directory to Regional Regulations
-For direct access to country-specific compliance handbooks, map your requirements straight to our regional legal repository tracks:
-* 🇪🇺 **[2.1 - European Union AI Act Compliance Handbook](../2-regional-regulations/2.1-eu-ai-act-compliance-handbook.md)**
-* 🇭🇰 **[2.2 - Hong Kong Banking AI Handbook](../2-regional-regulations/2.2-hong-kong-banking-ai-handbook.md)**
-* 🇸🇬 **[2.3 - Singapore AI Governance & Financial Sector Handbook](../2-regional-regulations/2.3-singapore-ai-governance-handbook.md)**
+---
+
+## 🔗 Jurisdictional Legal Routing
+
+While global foundations provide the operational and technical scaffolding, your systems must ultimately satisfy the hard statutory boundaries of the specific markets where they deploy. 
+
+All country-specific compliance playbooks, legal timelines, and enforcement matrices are fully consolidated within our secondary directory:
+
+👉 **[Go to Section 2: Regional Regulations & Handbooks](../2-regional-regulations/README.md)**
+
