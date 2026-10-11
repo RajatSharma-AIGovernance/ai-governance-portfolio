@@ -84,10 +84,10 @@ Compliance offices must structure their infrastructure engineering timelines to 
 
 ---
 
-> **📢 Call for Submissions (Authors & Publishers)**
-> As part of my commitment to maintaining this repository as a live, open-source intelligence hub for global enterprise compliance, I regularly review and feature upcoming literature on AI Governance, Trust & Safety, and Algorithmic Auditing. 
+> **📢 Call for Review Submissions (Authors & Publishers)**
+> As part of my commitment to maintaining this repository as an active, high-integrity intelligence hub for global enterprise compliance, I strictly feature and benchmark literature that has been personally vetted and reviewed. 
 > 
-> If you are an author or publisher with an upcoming 2027 release and would like your text benchmarked and featured in the next edition of this annual paper, please reach out directly via **sharma.rajat.work@gmail.com** or connect via **[LinkedIn](https://linkedin.com)** to share review manuscripts.
+> If you are an author or publisher with an upcoming release or a new 2027 technical publication on AI Governance, Trust & Safety, or Algorithmic Auditing, you may request a structural feature. Please reach out via **sharma.rajat.work@gmail.com** or connect via **[LinkedIn](https://linkedin.com)** to arrange the transfer of review manuscripts or coordinates for a signed physical copy so that I can read, evaluate, and share comprehensive operational feedback in upcoming editions of this paper.
 
 ---
 
@@ -97,4 +97,3 @@ To insulate corporate networks against upcoming compliance audits and security t
 
 1. **Deploy a Standardized, Automated System Inventory Gate:** Eliminate "Shadow AI" by blocking deployment software pipelines until developers register the model use case, input datasets, and an executive **Certified System Owner ID** into a secure internal log [2.1].
 2. **Implement Mandatory Data Masking Prior to Model Ingestion:** Safeguard user privacy by embedding automated tokenization and **PII Scrubbing** layers into data engineering workflows, ensuring no raw personal data hits external foundation model endpoints or RAG caches [2.1].
-3. **Hardcode Absolute Human-in-the-Loop Safeguards:** Prevent autonomous operational damage by restricting agent privileges. Configure application frontends so high-impact decisions (such as transaction executions or service rejections) require a manual human click to finalize [2.1].
