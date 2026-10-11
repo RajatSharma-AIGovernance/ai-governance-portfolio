@@ -1,49 +1,53 @@
 # AI Governance & Risk Management Portfolio
-Welcome to my AI Governance portfolio. This repository contains practical, ready-to-implement artifacts designed to help organizations build robust **AI Management Systems (AIMS)**. 
 
-My work bridges corporate strategy, data ethics, and technical risk control, drawing heavily from my training in **ISO/IEC 42001 (Lead Implementer)** and the **IAPP AIGP**.
+Welcome to my enterprise AI Governance portfolio. This repository serves as an active, production-grade reference framework designed to help organizations build robust, audit-ready **AI Management Systems (AIMS)**. 
+
+My work bridges corporate strategy, data ethics, and technical risk control, drawing from my training in **ISO/IEC 42001 (Lead Implementer)** and the **IAPP AIGP** framework ecosystems.
 
 ---
 
-## 📁 Portfolio Artifacts
+## 📁 Repository Index & Taxonomy
 
-### 1. 📋 [AI Use-Case Intake Workflow & Inventory](project-1-intake-workflow.md)
-* **Status:** 🟢 Completed
-* **Framework Alignment:** ISO 42001 Clause 6.1 (Risk Actions), EU AI Act Risk Tiering.
-* **Overview:** A systematic workflow template for business units to propose new AI systems, ensuring legal, privacy, and safety compliance before deployment.
+* 🌐 **[1-global-foundations](./1-global-foundations/)**: Cross-framework mapping matrices and technical security standards for Large Language Models, RAG pipelines, and infrastructure layers.
+* 🌍 **[2-regional-regulations](./2-regional-regulations/)**: Localized compliance playbooks and statutory implementation guides for major international markets (EU, Singapore, Hong Kong, India, UAE, US, Australia).
+* 📝 **[3-ai-governance-annual-paper](./3-ai-governance-annual-paper/)**: Flagship industry trend research tracking shifting international regulatory balances and technical exploits.
+* 🛠️ **[4-operational-toolkits](./4-operational-toolkits/)**: Downloadable, ready-to-implement enterprise assessment templates and corporate policies to execute lifecycle compliance.
+* 🎓 **[5-learning-guild-hub](./5-learning-guild-hub/)**: Open-source vocational roadmaps, curricula, and training kits built for upcoming professionals and educators.
 
-### 2. 🛡️ [Enterprise Generative AI Acceptable Use Policy](project-2-acceptable-use.md)
-* **Status:** 🟢 Completed
-* **Framework Alignment:** AIGP Corporate Governance Core Principles, Corporate Data Loss Prevention (DLP).
-* **Overview:** A comprehensive internal corporate policy defining clear guardrails, data matrices, and human-in-the-loop requirements for employees interacting with LLMs.
+---
 
-### 3. 🔍 [Third-Party AI Vendor Risk Assessment Questionnaire](project-3-vendor-assessment.md)
-* **Status:** 🟢 Completed
-* **Framework Alignment:** ISO 42001 Annex A (Stakeholder Relationships), AIGP Supplier Risk Management.
-* **Overview:** A due diligence vetting tool designed to audit external AI vendors on data training opt-outs, prompt injection defenses, and regional data residency.
+## ⚙️ The Phase-Based Operational Toolkit Loop
 
-### 4. ⚖️ [Algorithmic Impact Assessment (AIA) – Automated Hiring System](project-4-impact-assessment.md)
-* **Status:** 🟢 Completed
-* **Framework Alignment:** IAPP AIGP Ethical Principles, ISO 42001 Clause 6.1.2 (AI Risk Assessment Process).
-* **Overview:** A deep-dive risk evaluation of an automated recruitment tool, demonstrating how to detect algorithmic bias, balance demographic parity, and implement ongoing performance audits.
+This lifecycle demonstrates how downloadable toolkit templates in Section 4 integrate to push corporate AI initiatives through enterprise deployment gates safely:
+
+```mermaid
+graph TD
+    A[4.1: AI System Intake Template] --> B[4.2: GenAI Acceptable Use Policy]
+    B --> C[4.3: Third-Party Vendor Questionnaire]
+    C --> D[4.4: Algorithmic Impact Assessment]
+    style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+```
 
 ---
 
 ## 🎯 Professional Core Competencies
-* AI Management System (AIMS) Design (ISO 42001)
-* Algorithmic Bias & Ethics Assessments (AIGP)
-* AI Risk Mapping & Classification
-* Vendor Due Diligence for Foundation Models
-* Corporate Policy Drafting & Lifecycle Enforcement
+* **AI Management System (AIMS) Design:** Implementing organizational controls aligned with ISO/IEC 42001 rules.
+* **Algorithmic Bias Auditing:** Running pre-launch statistical fairness checks using demographic parity benchmarks.
+* **Technical Security Vetting:** Auditing applications using the OWASP GenAI and Agentic Top 10 vulnerabilities.
+* **Vendor Due Diligence:** Vetting external third-party models for Zero Data Retention (ZDR) and privacy compliance.
+* **Cross-Functional Enablement:** Translating complex laws into step-by-step developer checklists and workflows.
 
 ---
 
 ## 👤 About Me
-Hi, my name is Rajat Sharma and I am a dedicated AI Governance, Risk, and Compliance professional focused on helping organizations responsibly deploy machine learning technologies. By translating abstract ethical principles and complex regulations (like the EU AI Act) into operational controls, I ensure AI systems remain safe, transparent, and legally compliant.
-
-* **Looking for:** Full-time opportunities, consulting engagements, or collaborative projects in AI Governance, Trust & Safety, and AI Risk Management.
-* **Open to:** Providing guidance to peers transitioning into the space, speaking engagements, and framework benchmarking.
+Hi, my name is Rajat Sharma and I am a dedicated AI Governance, Risk, and Compliance professional focused on helping organizations responsibly deploy machine learning technologies. By translating abstract ethical principles and complex cross-border regulations into clear, executable operating models, I ensure AI systems remain safe, transparent, and legally compliant without bottlenecking strategic innovation.
 
 ### 🤝 Let's Connect
-* **LinkedIn:** https://www.linkedin.com/in/rajat-sharma-pm/
+* **LinkedIn:** [linkedin.com/in/rajat-sharma-pm/](https://www.linkedin.com/in/rajat-sharma-pm/)
 * **Email:** sharma.rajat.work@gmail.com
+
+---
+
+## ⚖️ Legal Disclaimer & Terms of Use
+*The content provided across this entire repository and its sub-directories is intended solely for educational, informational, and professional portfolio demonstration purposes. It does not constitute formal legal advice, regulatory counseling, or professional compliance auditing. While every effort is made to maintain factual accuracy relative to shifting global regulatory benchmarks, users must consult qualified legal counsel or certified data protection authorities before implementing these frameworks in a commercial production environment. The author accepts no liability for operational, financial, or legal actions resulting from the independent application of this material.*
