@@ -33,10 +33,8 @@ Because the Pilot environment exposes the enterprise system to actual user inter
 
 ---
 
-## 📋 Module 4: Mandatory Supporting Documents & Active Toolkit Assets
-*To execute the specific lifecycle gates defined across this phase, customize, download, and deploy the active utility tools located in the shared directory:*
-* 👉 **[Document 4.4 - Algorithmic Impact Assessment Template](../Supporting-Utilities/4.4-algorithmic-impact-assessment-template.md)**: The mandatory evaluation framework used to calculate demographic parity and track automation bias ratios [2.1].
-* 👉 **[Document 4.6 - AI Production Monitoring Assessment Template](../Supporting-Utilities/4.6-ai-production-monitoring-assessment.md)**: The smart scoping registry used to verify calculation methodologies and threshold ceilings for active models [2.1].
+## 📋 Module 4: Mandatory Supporting Documents & Active Toolkit Assets and append the link at the bottom of the list:
+* 📋 **[4.7 - AI Steering Committee Approval Form](../Supporting-Utilities/4.7-ai-steering-committee-approval-form.md)**: The centralized corporate sign-off form used to escalate and authorize Pilot to Production migrations.
 
 ---
 
