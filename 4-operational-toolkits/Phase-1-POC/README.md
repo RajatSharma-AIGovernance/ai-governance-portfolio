@@ -1,79 +1,51 @@
-# 4.2 - Gate 1: Proof of Concept (POC) Compliance Manual
+# 4.2 - Phase 1: Proof of Concept (POC) Compliance Manual
 
 > **🗂️ Document Control Reference**
-> * **Framework Index:** TK-SEC-4.2.0 (POC Gate Core)
+> * **Framework Index:** TK-SEC-4.2
 > * **Current Version:** v1.2
 > * **Last Operational Review:** October 2026
-> * *⚙️ Operational Customization Note: All processes, checklists, workflows, and templates provided within this manual are designed as modular baselines and can be fully customized, expanded, or modified to align with your specific organizational needs.*
+> * *⚙️ Operational Customization Note: This manual serves as an adaptive baseline overlay and can be fully customized or expanded to align with your organization's specific technical, legal, and operational risk appetites.*
 > * *Note: Subject to the master legal disclaimer located in the repository root [README.md](../../README.md).*
 
 ---
 
-## 🏛️ Module 1: Objective & Scope (ISO/IEC 42001 Alignment)
-
-Once a sandbox-tested AI use case moves toward prototype construction with actual corporate infrastructure, it triggers **Gate 1 (POC)**. The core objective of this gate is to conduct deep technical code audits and data-lineage safety reviews within a secure, non-production staging environment. 
-
-### ⚙️ Global Standard Grounding:
-This stage directly operationalizes the frameworks outlined in **[Document 1.2 - ISO/IEC 42001 Translation Manual](../../1-global-foundations/1.2-iso-42001-translation-manual.md)** under **Clause 6.1.2 (AI Risk Assessment Process)**, which mandates that organizations systematically identify, analyze, and evaluate AI-specific risks [2.1]. Because this occurs inside an isolated prototype environment, zero live production data assets or consumer profiles are exposed to operational risk.
+## 🏛️ Module 1: Phase Objective & Scope (ISO/IEC 42001 Alignment)
+Once an AI use case clears sandbox testing and moves toward prototype construction with actual corporate infrastructure, it triggers **Phase 1 (POC)**. The core objective of this gate is to conduct technical code audits and data-lineage safety reviews within a secure, non-production staging environment. This stage directly operationalizes **ISO/IEC 42001:2023 Clause 6.1.2 (AI Risk Assessment Process)** [2.1]. Because this occurs inside an isolated prototype environment using lenient data controls (Track A), zero live users or production assets are exposed to risk.
 
 ---
 
-## 👥 Module 2: Cross-Functional Vetting Teams & Global Standards Mapping
-
-Four highly specialized risk groups must independently audit the prototype during this gate. To ensure global alignment, every review layer maps directly to interactive, deep-dive reference manuals located inside Sections 1 and 2 of this repository:
-
-### 1. The Cybersecurity Review Team (InfoSec Architects)
-* **Operational Scope:** Audits application source code, API integration parameters, and prompt configurations [2.1].
-* **Global Standard Alignment Links:** 
-  * 📑 **[Document 1.3.1 - OWASP AI Security Manual](../../1-global-foundations/1.3.1-owasp-ai-security-manual.md)** (For Core LLM prompt vulnerabilities)
-  * 📑 **[Document 1.3.2 - OWASP API Security Manual](../../1-global-foundations/1.3.2-owasp-api-security-manual.md)** (For integration bridge boundaries)
-* **AI-Specific Focus:** Evaluates the prototype against direct and indirect prompt injection vulnerabilities (`LLM01`/`AGE01`), checks for insecure output handling (`LLM02`), and audits system components to prevent unauthorized remote execution hacks.
-
-### 2. The Data Review Team (Data Governance Office)
-* **Operational Scope:** Audits the dataset ingestion supply chain, token storage, and RAG retrieval pipelines [2.1].
-* **Global Standard Alignment Links:** 
-  * 📑 **[Document 2.4 - India DPDP AI Governance Manual](../../2-regional-regulations/2.4-india-dpdp-ai-governance.md)** (For consent limits and principal erasure) [2.4]
-  * 📑 **[Document 2.1 - EU AI Act Compliance Handbook](../../2-regional-regulations/2.1-eu-ai-act-compliance-handbook.md)** (For GDPR-linked data provenance limits) [2.1]
-* **AI-Specific Focus:** Establishes strict data provenance. They enforce automated **PII Scrubbing** and data masking inside ingestion code lines, ensuring no raw personal identifiers are written into vector databases or cached in model history windows [2.4].
-
-### 3. The Quality Review Team (Model Validation Unit)
-* **Operational Scope:** Audits model behavioral stability, grounding layers, and token output consistency.
-* **Global Standard Alignment Link:** 
-  * 📑 **[Document 1.4 - NIST AI RMF Manual](../../1-global-foundations/1.4-nist-rmf-translation-manual.md)** (Focusing on the Measure & Manage functions)
-* **AI-Specific Focus:** Benchmarks the prototype's reliability. They test the RAG chunking engine to calculate initial context precision and context recall values, setting up a mathematical defense against model hallucinations.
-
-### 4. The Legal & Procurement Team (Technology Risk Counsel)
-* **Operational Scope:** Reviews third-party software licenses, commercial SaaS terms, and foundational model endpoints.
-* **Global Standard Alignment Link:** 
-  * 📑 **[Document 1.2 - ISO/IEC 42001 Translation Manual](../../1-global-foundations/1.2-iso-42001-translation-manual.md)** (Focusing on Annex A.10 - Relationships with Stakeholders) [2.1]
-* **AI-Specific Focus:** Executes strict vendor due diligence checks using **Zero Data Retention (ZDR)** parameters. They verify that the vendor contract legally prohibits the supplier from using your corporate inputs to train public base models [2.3, 2.5].
+## 👥 Module 2: AI-Specific Review Overlay (Cross-Functional Focus)
+Traditional IT risks (service accounts, firewall rules, general server hardening) are handled independently by standard corporate security desks. This module serves strictly as an **AI-Specific Governance Overlay**, tracking mandatory compliance checkpoints mapped directly to global standards:
+* **Cybersecurity Review:** InfoSec architects audit prototype code and API integrations against **[Document 1.3.1 - OWASP AI Security](../../1-global-foundations/1.3.1-owasp-ai-security-manual.md)** and **[Document 1.3.2 - OWASP API Security](../../1-global-foundations/1.3.2-owasp-api-security-manual.md)** [2.1]. They verify system prompt architecture isolates system rules from test inputs to mitigate prompt injection vulnerabilities (`LLM01`).
+* **Data Governance Review:** The Privacy Office audits the prototype ingestion layers to enforce compliance with **[Document 1.2 - ISO/IEC 42001 Annex A.8](../../1-global-foundations/1.2-iso-42001-translation-manual.md)** and regional laws [2.1, 2.4]. They execute a *Synthetic Data Attestation* ensuring that 100% of data used during this phase is mock or randomized text, strictly blocking raw consumer records [2.4].
+* **Model Quality Review:** The Model Validation Unit benchmarks baseline output reliability against **[Document 1.4 - NIST AI RMF](../../1-global-foundations/1.4-nist-rmf-translation-manual.md)** parameters, executing one-time static accuracy and fluency checks.
+* **Legal & Procurement Review:** Risk Counsel reviews supplier licensing against **[Document 1.2 - ISO/IEC 42001 Annex A.10](../../1-global-foundations/1.2-iso-42001-translation-manual.md)** [2.1]. They run a preliminary contract audit using our *Third-Party Vendor Vetting Questionnaire* to ensure the supplier provides secure single-tenant options [2.3].
 
 ---
 
-## ⚙️ Module 3: AI Steering Committee Approval & Verdict Flow
-
-Once all four vetting units complete their independent technical audits, the compiled logs, risk scores, and vendor questionnaires are submitted to the centralized **Enterprise AI Governance Steering Committee** for formal evaluation:
+## ⚙️ Module 3: Phase Exit Criteria & Committee Approval Flow
+To clear Phase 1 and authorize code migration into the Pilot (UAT) cluster, the project must clear the centralized **AI Governance Steering Committee** review:
 
 ```mermaid
 graph TD
     A[Compile InfoSec, Data, Quality & Legal Logs] --> B[AI Governance Steering Committee Review]
-    B -->|Fails OWASP, PII, or ZDR baselines| C[VERDICT: REJECTED / Return to Development]
+    B -->|Fails OWASP or data privacy baselines| C[VERDICT: REJECTED / Return to Development]
     B -->|Passes all global baseline gates| D[VERDICT: CONDITIONAL POC PASSED]
     D --> E[Issue System Tracking ID & Authorize Pilot Migration]
-    style B fill:#fffRef,stroke:#fbc02d,stroke-width:2px
+    style B fill:#fffde7,stroke:#fbc02d,stroke-width:2px
     style C fill:#ffebee,stroke:#d32f2f,stroke-width:2px
     style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
 ```
-
-* **The Approval Threshold:** The committee evaluates the prototype's residual risk posture. If the system uses non-ZDR vendor hooks or violates ISO 42001 data governance rules, it faces an immediate **Critical Block** [2.1, 2.3]. If cleared, it receives a **System Tracking ID**, authorizing the delivery team to migrate code into the Pilot (UAT) environment.
+If any baseline OWASP security configurations or contract guidelines fail to clear, the committee issues a **Critical Block** and halts development. If passed, the committee issues a unique **System Tracking ID**, unlocking Phase 2 access [2.1, 2.3].
 
 ---
 
-## 📋 Module 4: Active Gate Templates & Checklists
-*To execute the specific lifecycle gates defined across this process, customize, download, and deploy these operational tools:*
+## 📋 Module 4: Mandatory Supporting Documents & Active Toolkit Assets
+*To execute the specific lifecycle gates defined across this phase, compliance teams and developers utilize these cross-phase supporting tools:*
+* 👉 **[Document 4.5.1 - Generative AI Acceptable Use Policy](../Supporting-Utilities/GenAI-Acceptable-Use-Policy.md)**: Workforce behavioral boundaries governing employee and developer interactions with LLM environments [2.1].
+* 👉 **[Document 4.5.2 - Third-Party Vendor Questionnaire](../Supporting-Utilities/Third-Party-Vendor-Vetting.md)**: The technical risk audit form sent to external AI suppliers to verify data siloing and infrastructure controls [2.1].
 
-* 📄 **[4.2.1 - Cross-Functional POC Review Checklist](./4.2.1-cross-functional-poc-review-checklist.md)**: Exhaustive technical checklists for Cybersecurity, Data, Quality, and Legal review teams aligned with OWASP, NIST, and ISO 42001 [2.1].
-* 📋 **[4.2.2 - AI Steering Committee Approval Form](./4.2.2-ai-steering-committee-approval-form.md)**: The official corporate sign-off form and verdict sheet used by the AI Governance Board to authorize pilot migration.
-* 🛡️ **[4.2.3 - Generative AI Acceptable Use Policy](../4.2-generative-ai-acceptable-use-policy.md)**: Workforce behavioral boundaries governing employee and developer interactions with LLM code blocks [2.1].
-* 🔍 **[4.2.4 - Third-Party Vendor Vetting Questionnaire](../4.3-third-party-vendor-vetting-questionnaire.md)**: The technical risk audit form sent to external AI suppliers to verify data siloing and infrastructure controls [2.1].
+---
 
+## 📊 Module 5: Post-Phase Verification & Metrics Mapping
+Upon committee sign-off, the lead assessor seals the prototype's compliance file. The project's status is updated to "POC Cleared" inside the company's registry. This prepares the code repository for the activation of **strict, continuous telemetry tracking** as it migrates to the live user environments of Phase 2 (Pilot) [2.1].
