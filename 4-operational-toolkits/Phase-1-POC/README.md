@@ -40,10 +40,8 @@ If any baseline OWASP security configurations or contract guidelines fail to cle
 
 ---
 
-## 📋 Module 4: Mandatory Supporting Documents & Active Toolkit Assets
-*To execute the specific lifecycle gates defined across this phase, compliance teams and developers utilize these cross-phase supporting tools:*
-* 👉 **[Document 4.5.1 - Generative AI Acceptable Use Policy](../Supporting-Utilities/GenAI-Acceptable-Use-Policy.md)**: Workforce behavioral boundaries governing employee and developer interactions with LLM environments [2.1].
-* 👉 **[Document 4.5.2 - Third-Party Vendor Questionnaire](../Supporting-Utilities/Third-Party-Vendor-Vetting.md)**: The technical risk audit form sent to external AI suppliers to verify data siloing and infrastructure controls [2.1].
+## 📋 Module 4: Mandatory Supporting Documents & Active Toolkit Assets and update the link to look exactly like this:
+* 📋 **[4.7 - AI Steering Committee Approval Form](../Supporting-Utilities/4.7-ai-steering-committee-approval-form.md)**: The official corporate sign-off form and verdict sheet used by the AI Governance Board to authorize phase migrations.
 
 ---
 
