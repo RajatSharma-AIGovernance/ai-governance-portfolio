@@ -70,6 +70,10 @@ graph TD
 ---
 
 ## 📋 Module 4: Active Gate Templates & Checklists
-*To execute the specific lifecycle gates defined across this process, customize and deploy these downloadable tools:*
-* 👉 **[4.2.1 - Generative AI Acceptable Use Policy](../4.2-generative-ai-acceptable-use-policy.md)**: Workforce behavioral boundaries governing employee and developer interactions with LLM code blocks [2.1].
-* 👉 **[4.2.2 - Third-Party Vendor Vetting Questionnaire](../4.3-third-party-vendor-vetting-questionnaire.md)**: The technical risk audit form sent to external AI suppliers to verify data siloing and infrastructure controls [2.1].
+*To execute the specific lifecycle gates defined across this process, customize, download, and deploy these operational tools:*
+
+* 📄 **[4.2.1 - Cross-Functional POC Review Checklist](./4.2.1-cross-functional-poc-review-checklist.md)**: Exhaustive technical checklists for Cybersecurity, Data, Quality, and Legal review teams aligned with OWASP, NIST, and ISO 42001 [2.1].
+* 📋 **[4.2.2 - AI Steering Committee Approval Form](./4.2.2-ai-steering-committee-approval-form.md)**: The official corporate sign-off form and verdict sheet used by the AI Governance Board to authorize pilot migration.
+* 🛡️ **[4.2.3 - Generative AI Acceptable Use Policy](../4.2-generative-ai-acceptable-use-policy.md)**: Workforce behavioral boundaries governing employee and developer interactions with LLM code blocks [2.1].
+* 🔍 **[4.2.4 - Third-Party Vendor Vetting Questionnaire](../4.3-third-party-vendor-vetting-questionnaire.md)**: The technical risk audit form sent to external AI suppliers to verify data siloing and infrastructure controls [2.1].
+
