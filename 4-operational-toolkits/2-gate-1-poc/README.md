@@ -4,11 +4,8 @@
 > * **Framework Index:** TK-SEC-4.2.0 (POC Gate Core)
 > * **Current Version:** v1.2
 > * **Last Operational Review:** October 2026
-> * *⚙️ Operational Customization Note: All processes, checklists, workflows, and templates provided within this manual are designed as modular baselines and can be fully customized, expanded, or modified to align with your specific organizational structure, industry sector, and internal technical environments.*
->
-> ---
-> **⚖️ LEGAL DISCLAIMER & TERMS OF USE**
-> *The content provided within this operational manual is intended solely for educational, informational, and professional portfolio demonstration purposes. It does not constitute formal legal advice, structural regulatory counseling, or professional compliance auditing. While every effort is made to maintain factual accuracy relative to shifting regulatory benchmarks, users must consult qualified legal counsel or certified data protection officers before implementing these frameworks in a commercial production environment. The author accepts no liability for operational, financial, or legal actions resulting from the independent application of this material.*
+> * *⚙️ Operational Customization Note: All processes, checklists, workflows, and templates provided within this manual are designed as modular baselines and can be fully customized, expanded, or modified to align with your specific organizational needs.*
+> * *Note: Subject to the master legal disclaimer located in the repository root [README.md](../../README.md).*
 
 ---
 
