@@ -44,6 +44,8 @@ This master matrix connects these worlds, showing you exactly which framework to
   * ☁️ **[1.3.4 - OWASP Cloud Security Manual](./1.3.4-owasp-cloud-security-manual.md)**: Safeguarding the underlying host infrastructure and virtual cloud environments.
   * 🤖 **[1.3.5 - OWASP Agentic Systems Manual](./1.3.5-owasp-agentic-systems.md)**: Managing vulnerabilities specific to autonomous agency, tool execution loops, and inter-agent synchronization.
   * 🔢 **[1.3.6 - OWASP ML Security Manual](./1.3.6-owasp-ml-security-manual.md)**: Defending core model weights, array math, data poisoning vectors, and registry storage layers.
+  * 📦 **[1.5 - AI Software Supply Chain Provenance Manual](./1.5-ai-supply-chain-provenance-manual.md)**: Validating AI software bills of materials (AI-SBOM), model weight serialization security, and preventing model poisoning.
+  * ⚖️ **[1.6 - AI Content Provenance & Automation Bias Manual](./1.6-ai-content-provenance-automation-bias-manual.md)**: Tracking RAG / training copyright transparency boundaries and auditing human-in-the-loop cognitive friction gates.
 
 ---
 
