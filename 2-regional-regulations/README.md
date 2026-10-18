@@ -1,5 +1,13 @@
 # Section 2 — Regional Regulations & Jurisdictional Handbooks
 
+> **🗂️ Document Control Reference**
+> * **Framework Index:** REG-SEC-2.0
+> * **Current Version:** v1.2
+> * **Last Operational Review:** October 2026
+> * *Note: All materials in this directory are strictly subject to the master legal disclaimer located within this document control module and the repository root [README.md](../README.md).*
+
+---
+
 ## ⚖️ Legal Disclaimer & Terms of Use
 *The content provided within this directory and its sub-documents is intended solely for educational, informational, and professional portfolio demonstration purposes. It does not constitute formal legal advice, regulatory counseling, or professional compliance auditing. While every effort is made to maintain factual accuracy relative to shifting global regulatory benchmarks, users must consult qualified legal counsel or certified data protection authorities before implementing these frameworks in a commercial production environment. The author accepts no liability for operational, financial, or legal actions resulting from the independent application of this material.*
 
