@@ -38,10 +38,12 @@ This master matrix connects these worlds, showing you exactly which framework to
 ### 3. Are you checking code security across systems?
 * **Use:** **The OWASP Ecosystem Hub**
 * **Why:** Compliance laws don't stop hackers. You need the **[OWASP Central Hub](./1.3-owasp-foundational-systems-manual.md)** to route your development teams to specific checklists protecting your systems:
-  * 🌐 **[1.3.1 - OWASP AI Security Manual](./1.3.1-owasp-ai-security-manual.md)**: Mitigating prompt injections, data poisoning, and model extraction vectors.
-  * ⚙️ **[1.3.2 - OWASP API Security Manual](./1.3.2-owasp-api-security-manual.md)**: Securing the data transit endpoints and token hooks connecting to model services.
-  * 💻 **[1.3.3 - OWASP Web Security Manual](./1.3.3-owasp-web-security-manual.md)**: Hardening the frontend interfaces rendering AI outputs to clients.
-  * ☁️ **[1.3.4 - OWASP Cloud Security Manual](./1.3.4-owasp-cloud-security-manual.md)**: Safeguarding the virtual infrastructure hosting the model weights and data registries.
+  * 🌐 **[1.3.1 - OWASP AI Security Manual](./1.3.1-owasp-ai-security-manual.md)**: Mitigating LLM-specific vulnerabilities, core prompt injection risks, and pipeline vulnerabilities.
+  * ⚙️ **[1.3.2 - OWASP API Security Manual](./1.3.2-owasp-api-security-manual.md)**: Securing data transit endpoints and token hooks connecting to model services.
+  * 💻 **[1.3.3 - OWASP Web Security Manual](./1.3.3-owasp-web-security-manual.md)**: Hardening legacy frontend user interfaces rendering AI outputs.
+  * ☁️ **[1.3.4 - OWASP Cloud Security Manual](./1.3.4-owasp-cloud-security-manual.md)**: Safeguarding the underlying host infrastructure and virtual cloud environments.
+  * 🤖 **[1.3.5 - OWASP Agentic Systems Manual](./1.3.5-owasp-agentic-systems.md)**: Managing vulnerabilities specific to autonomous agency, tool execution loops, and inter-agent synchronization.
+  * 🔢 **[1.3.6 - OWASP ML Security Manual](./1.3.6-owasp-ml-security-manual.md)**: Defending core model weights, array math, data poisoning vectors, and registry storage layers.
 
 ---
 
