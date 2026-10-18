@@ -102,3 +102,19 @@ When an application is moving through the pipeline, delivery leads must execute 
 * **Action:** If a live system in Phase 3 hits an operational threshold ceiling (e.g., Groundedness drops below 0.85 or toxicity flags trigger), the logging architecture must execute automated remediation steps:
   * *For Security/Fairness drops:* Force an immediate session termination, route the session to a safe static screen, and alert the Security Operations Center (SOC).
   * *For Quality/Accuracy drops:* Suppress the generative output entirely and render a pre-approved, static human-written text snippet to safeguard institutional equity.
+
+
+---
+
+## 🛠️ Module 5: Supporting Utilities Integration Ledger
+*This matrix defines the exact operational forms, schemas, and templates housed within the `Supporting-Utilities/` directory, detailing which cross-functional risk team owns the asset and exactly which phase gate requires its mandatory execution:*
+
+| Asset Tracking ID | Operational Template Name | Core Framework Mapping | Functional Team Owner | Mandatory Execution Gate |
+| :--- | :--- | :--- | :--- | :--- |
+| **REG-SEC-4.1** | **[AI System Intake Template](./Supporting-Utilities/4.1-ai-system-intake-template.md)** | ISO/IEC 42001 Clause 6.1 (Risk Actions) [2.1] | AI Portfolio Office & Business Requestor | **Phase 0: Ideation & Ingestion Gate** |
+| **REG-SEC-4.2** | **[Generative AI Acceptable Use Policy](./Supporting-Utilities/4.2-generative-ai-acceptable-use-policy.md)** | AIGP Corporate Governance & Data Loss Prevention [2.1] | Human Resources & Information Security | **Continuous Deployment Baseline** (All Phases) |
+| **REG-SEC-4.3** | **[Third-Party Vendor Questionnaire](./Supporting-Utilities/4.3-third-party-vendor-vetting-questionnaire.md)** | ISO/IEC 42001 Annex A.10 (Stakeholder Relationships) [2.1] | Legal & Technical Procurement Council | **Phase 1: Proof of Concept (POC) Review** |
+| **REG-SEC-4.4** | **[Algorithmic Impact Assessment](./Supporting-Utilities/4.4-algorithmic-impact-assessment-template.md)** | EU AI Act Annex III & Statistical Parity Metrics [2.1, 2.4] | AI Risk Officer & Business Metrics Lead | **Phase 2: Pilot Deployment (UAT) Audit** |
+| **REG-SEC-4.5** | **[Production Log-Tagging Schema](./Supporting-Utilities/4.5-enterprise-ai-monitoring-log-schema.md)** | OWASP GenAI Top 10 Log Traceability [2.1] | Core Software Engineers & DevSecOps Lead | **Phase 2 (Pilot Testing) & Phase 3 (Live Launch)** |
+| **REG-SEC-4.6** | **[Production Monitoring Matrix](./Supporting-Utilities/4.6-ai-production-monitoring-assessment.md)** | NIST AI RMF Measure & Manage / ISO Performance [2.1] | Lead Assessor & Automation Telemetry Unit | **Phase 3: Live Commercial Launch Sign-off** |
+| **REG-SEC-4.7** | **[AI Steering Committee Approval Form](./Supporting-Utilities/4.7-ai-steering-committee-approval-form.md)** | ISO/IEC 42001 Institutional Sign-off Controls [2.1] | Centralized AI Governance Steering Board | **Mandatory Phase Exit Barrier** (All Phases) |
