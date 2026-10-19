@@ -60,9 +60,13 @@ The last 12 months have seen unprecedented regulatory movements across core inte
 * **The Statutory Shift:** The Data Protection Board of India (DPBI) issued preliminary notifications under the DPDP Act 2023 [2.4].
 * **The Engineering Impact:** Large enterprises utilizing consumer data text portfolios for continuous RAG processing are classified as *Significant Data Fiduciaries (SDFs)* under Section 10, requiring mandatory independent data protection audits [2.4].
 
-### 🗓️ October 2026 [Current Milestone] — The MAS Mandate
-* **The Statutory Shift:** The Monetary Authority of Singapore issued its binding *Guidelines on Artificial Intelligence Risk Management for Financial Institutions* [2.3].
-* **The Engineering Impact:** Locks in absolute corporate accountability for banks deploying automated decision engines, requiring strict telemetry logging loops across all operational layers [2.3].
+### 🗓️ October 2026 [Current Milestone] — Asymmetric Global Enforcement Waves
+*   **The Statutory Shifts:** 
+    *   **Singapore (MAS):** The Monetary Authority of Singapore officially issues its binding *Guidelines on Artificial Intelligence Risk Management for Financial Institutions* [2.3].
+    *   **European Union:** The EU AI Office finalizes the master *Code of Practice for General Purpose AI (GPAI)* model compliance protocols [2.1].
+    *   **United States:** Federal procurement desks activate the first programmatic dependency blocks on vendors failing to submit active AI-SBOM registries.
+*   **The Engineering Impact:** Security and compliance architects face a multi-front crunch. Financial app developers must instantly implement the telemetry logging controls of **[Document 4.5](../../4-operational-toolkits/Supporting-Utilities/4.5-enterprise-ai-monitoring-log-schema.md)** [2.1, 2.3], while software supply chain teams must cryptographically lock package versions and model weight signatures to satisfy emerging US and EU transparency thresholds [2.1].
+
 
 ---
 
