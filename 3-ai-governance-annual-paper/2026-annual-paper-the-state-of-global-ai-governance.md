@@ -24,41 +24,60 @@ For enterprise delivery leads, the mandate is clear: AI compliance must be engin
 
 The last 12 months have seen unprecedented regulatory movements across core international markets. This master timeline acts as an evolving repository updated month-by-month through 2026, mapping statutory shifts to direct infrastructure realities:
 
-### 🗓️ January 2026 — Singapore Agentic Framework Release
-* **The Statutory Shift:** The IMDA officially launched the world's first comprehensive *Model AI Governance Framework for Agentic AI (v1.5)* [2.3].
-* **The Engineering Impact:** Moved past simple LLM text outputs to regulate autonomous systems capable of multi-step tool execution. Mandates loop step-counters and visibility logging to intercept agent exception failures [2.3].
+### 🗓️ January 2026 — Foundational Agentic and Federal Mandates
+*   **The Statutory Shifts:**
+    *   **Singapore (IMDA):** The Infocomm Media Development Authority officially launches the world's first comprehensive *Model AI Governance Framework for Agentic AI (v1.5)*, moving past static LLM text outputs to regulate autonomous multi-agent systems [2.3].
+    *   **United States (OMB):** The Office of Management and Budget (OMB) issues strict processing rules forcing federal agencies to establish centralized AI use-case inventories and assign explicit governance leads.
+*   **The Engineering Impact:** Pipeline architects must freeze testing scripts. For autonomous agent configurations, developers must hardcode manual approval gates for high-value transactional tools and write isolated runtime fencing protocols to block malicious tool execution loops (`AGE02`) as defined in **[Document 1.2.2](../../1-global-foundations/1.2-owasp-frameworks/1.2.2-owasp-agentic-systems.md)**.
 
-### 🗓️ February 2026 — EU AI Act Prohibited Bans Live
-* **The Statutory Shift:** The European AI Office activated the hard enforcement phase for Chapter II of the **EU AI Act (Regulation (EU) 2024/1689)** [2.1].
-* **The Engineering Impact:** Strict horizontal bans went fully live across all member states targeting prohibited applications (untargeted biometric scraping, subliminal manipulation, and emotion recognition in workplaces) [2.1].
+### 🗓️ February 2026 — Prohibited AI bans and Cross-Border Fencing
+*   **The Statutory Shifts:**
+    *   **European Union:** The European AI Office activates the formal, zero-tolerance enforcement phase for Chapter II of the **EU AI Act (Regulation (EU) 2024/1689)**, outlawing biometric workplace emotion scoring and subliminal cognitive manipulation [2.1].
+    *   **India (DPBI):** The Data Protection Board of India introduces preliminary rules for strict purpose limitation constraints on unmasked internet scraping data used to fine-tune deep learning engines [2.4].
+*   **The Engineering Impact:** Compliance review boards must run a zero-tolerance inspection pass. If an intake form under **[Document 4.1](../../4-operational-toolkits/Supporting-Utilities/4.1-ai-system-intake-template.md)** flags prohibited biometric or data-scraping parameters, an immediate architectural freeze is triggered. Infrastructure teams must deploy cryptographic data localization locks to pin staging arrays onto authorized server regions (e.g., **AWS UAE Region** clusters) to prevent international leakage [2.5].
 
-### 🗓️ March 2026 — US OMB Fed Infrastructure Deadlines
-* **The Statutory Shift:** United States Federal Agencies hit the primary structural implementation deadlines mandated under OMB Memorandum M-24-10.
-* **The Engineering Impact:** Forced independent risk assessments and data inventory logs for all federal infrastructure models, standardizing procurement rules for public-sector enterprise contractors.
 
-### 🗓️ April 2026 — Hong Kong Financial Sector Circular
-* **The Statutory Shift:** The Hong Kong Monetary Authority (HKMA) issued its high-priority regulatory circular targeting banking applications [2.2].
-* **The Engineering Impact:** Enforces mandatory validation loops, explainability documentation profiles, and manual override paths for credit screening models [2.2].
+### 🗓️ March 2026 — Federal Sandboxing Deadlines and Technical Vulnerability Baselines
+*   **The Statutory Shifts:**
+    *   **United States (Federal Agencies):** Federal infrastructure frameworks hit the hard compliance deadlines mandated under OMB Memorandum M-24-10, requiring immediate, documented risk triage for all active federal software models.
+    *   **Global Standards Body Alignment:** International audit boards release unified guidelines linking **[Document 1.1.1 - ISO/IEC 42001]** process treatment controls directly to code-level vulnerability checks [2.1].
+*   **The Engineering Impact:** System delivery leads must eliminate environment sprawl. Ingestion portals must programmatically provision isolated **Temporary Testing Sandboxes** using purely synthetic data arrays [2.1]. These test environments must hold a hardcoded, automated **30-day self-termination circuit breaker** to prevent infrastructure security drift and cloud resource leaks.
 
-### 🗓️ May 2026 — Dubai Digital Authority Enterprise Blueprint
-* **The Statutory Shift:** The Dubai Digital Authority activated its centralized *Enterprise AI Governance Framework* across the regional network horizon [2.5].
-* **The Engineering Impact:** Imposed clear metadata registration rules and geographic data-at-rest localization constraints, ensuring alignment with regional data sovereignty mandates [2.5].
+### 🗓️ April 2026 — Algorithmic Fairness Mandates and Financial Sector Vetting
+*   **The Statutory Shifts:**
+    *   **Hong Kong (HKMA):** The Hong Kong Monetary Authority issues its high-priority regulatory circular mandating strict algorithmic accountability, data lineage validation, and consumer contestability loops across the banking sector [2.2].
+    *   **United States (FTC):** The Federal Trade Commission issues enforcement warnings targeting algorithmic unfairness and deceptive AI-generated claims in consumer applications.
+*   **The Engineering Impact:** Risk Counsel and Model Validation units must upgrade their pre-production staging gates. Before authorizing a system migration, analysts must deploy **[Document 4.4 - Algorithmic Impact Assessment Template]** over the data ledger [2.1]. Reviewers must mathematically verify that selection rates across protected demographic cohorts do not violate the statistical **Four-Fifths Rule threshold (<0.80 adverse impact ratio)** to clear the gate [2.1].
 
-### 🗓️ June 2026 — Australia Mandatory Guardrails Progression
-* **The Shift:** The Australian Department of Industry, Science and Resources advanced its phased approach for mandatory guardrails in high-risk settings [2.7].
-* **The Engineering Impact:** Sets clear technical baseline expectations for AI software composition analysis and its deterministic bias triage before code deployment [2.7].
+### 🗓️ May 2026 — Data Sovereignty Fencing and Enterprise Inventory Logging
+*   **The Statutory Shifts:**
+    *   **Dubai & UAE (Digital Authority):** The Dubai Digital Authority activates its centralized *Enterprise AI Governance Framework* across the regional network horizon, making metadata logging mandatory for corporate AI models [2.5].
+    *   **European Union (AI Office):** The EU AI Office releases its first structural guidelines outlining the operational registration requirements for the centralized EU database of High-Risk AI systems [2.1].
+*   **The Engineering Impact:** Enterprise delivery leads must establish formal inventory logging mechanics. Infrastructure teams must deploy centralized use-case tracking portals that record and map model metadata, technical deployment topologies, and cryptographic signatures of training datasets to guarantee audit-readiness under **[Document 1.1.1 - ISO 42001](../../1-global-foundations/1.1-iso-standards/1.1.1-iso-42001-translation-manual.md)** controls [2.1].
 
-### 🗓️ July 2026 — UK AISI Pre-Deployment Testing Standards
-* **The Statutory Shift:** The United Kingdom AI Safety Institute (AISI) published its mid-year framework for active pre-deployment model red-teaming.
-* **The Engineering Impact:** Establishes international standards for evaluating model capabilities under load, focusing heavily on preventing cyber exploit automation.
+### 🗓️ June 2026 — Supply Chain Provenance and Pre-Deployment Hardening
+*   **The Statutory Shifts:**
+    *   **Australia (DISR):** The Department of Industry, Science and Resources advances its phased approach for mandatory guardrails, specifically introducing transparency baseline proposals for high-risk generative models [2.7].
+    *   **United States (NIST/CISA):** NIST, alongside CISA, issues updated security guidelines for software supply chains, explicitly targeting the verification of open-source model weights and third-party orchestration wrappers.
+*   **The Engineering Impact:** DevSecOps units must enforce rigid supply chain provenance checks. Build management pipelines must integrate automated **AI Software Bill of Materials (AI-SBOM)** registries, and data science teams are required to run structural verification suite passes to verify that open-source model weights are imported exclusively using safe, immutable `safetensors` formats rather than unverified serialized Pickle file paths per **[Document 1.4.1](../../1-global-foundations/1.4-provenance-standards/1.4.1-ai-supply-chain-provenance-manual.md)** parameters.
 
-### 🗓️ August 2026 — EU AI Act Standalone High-Risk Obligations Active
-* **The Statutory Shift:** The horizontal enforcement date for Annex III High-Risk AI applications under the EU AI Act went fully live [2.1].
-* **The Engineering Impact:** Standalone systems (banking credit risk, employment screening) must prove process conformity with **[Document 1.1.1 - ISO 42001](../../1-global-foundations/1.1-iso-standards/1.1.1-iso-42001-translation-manual.md)** and face statutory fines up to **€35M or 7% of global turnover** [2.1].
+### 🗓️ July 2026 — RAG Infrastructure Leak Controls and Privacy Scoping
+*   **The Statutory Shifts:**
+    *   **United Kingdom (AISI):** The UK AI Safety Institute publishes its mid-year standard framework for evaluating Retrieval-Augmented Generation (RAG) model capabilities and technical vulnerability thresholds.
+    *   **European Union (EDPB):** The European Data Protection Board issues a consolidated statement regarding algorithmic memory leakage, forcing stricter compliance gates over vector databases cache indexing.
+*   **The Engineering Impact:** Security architects must move from high-level data policies to strict runtime data geometry controls. Database engineering leads must implement document-level metadata filtering and access tokens directly within active vector registries to verify that internal RAG chatbots cannot leak unauthorized corporate text clusters to unauthenticated user queries per **[Document 1.1.3 - ISO 27091 Privacy Protection](../../1-global-foundations/1.1-iso-standards/1.1.3-iso-27091-privacy-protection-manual.md)** guidelines.
 
-### 🗓️ September 2026 — India DPBI SDF Classifications
-* **The Statutory Shift:** The Data Protection Board of India (DPBI) issued preliminary notifications under the DPDP Act 2023 [2.4].
-* **The Engineering Impact:** Large enterprises utilizing consumer data text portfolios for continuous RAG processing are classified as *Significant Data Fiduciaries (SDFs)* under Section 10, requiring mandatory independent data protection audits [2.4].
+### 🗓️ August 2026 — Phased EU Act Enforcement and Statutory Audit Triggers
+*   **The Statutory Shifts:**
+    *   **European Union:** The formal horizontal enforcement date for Annex III High-Risk AI applications under the **EU AI Act** goes live [2.1]. Autonomous systems embedded in banking credit verification, employment screening, and biometrics processing are now legally liable [2.1].
+    *   **Global Standards Body Realities:** Non-conformity with the core Annex III provisions triggers active financial penalty thresholds enabling fines up to **€35M or 7% of total global annual turnover** [2.1].
+*   **The Engineering Impact:** Project deployment teams must deactivate all lenient development options and implement full **Cumulative Rigor Enforcement**. Before commercial release, a Track B project must pass an exhaustive cross-functional review proving absolute alignment with **[Document 1.1.1 - ISO 42001](../../1-global-foundations/1.1-iso-standards/1.1.1-iso-42001-translation-manual.md)** process treatment controls and **[Document 1.1.2 - ISO 27090](../../1-global-foundations/1.1-iso-standards/1.1.2-iso-27090-cybersecurity-manual.md)** technical AI cyber defenses [2.1].
+
+### 🗓️ September 2026 — Data Fiduciary Controls and Technical Token Filters
+*   **The Statutory Shifts:**
+    *   **India (DPBI):** The Data Protection Board of India issues definitive notifications under the **DPDP Act 2023** [2.4]. Large enterprises utilizing mass consumer text portfolios for continuous RAG processing or foundational fine-tuning are formally classified as *Significant Data Fiduciaries (SDFs)* under Section 10, requiring mandatory independent data audits and purpose limitation gates [2.4].
+    *   **European Union (AI Office):** The EU AI Office publishes its final compliance blueprint for General Purpose AI (GPAI) model providers, enforcing the strict technical criteria required to satisfy public copyright transparency obligations [2.1].
+*   **The Engineering Impact:** Data privacy officers and pipeline engineers must transition to live data lineage auditing. Development teams must write automated **PII Tokenization Filters** directly into active data ingestion scripts to strip and hash customer names and personal identifiers before text elements traverse vector memories or RAG caches, satisfying the statutory penalty gates (**up to ₹250 Crores**) enforced under **[Document 2.4 - India DPDP Manual](../../2-regional-regulations/2.4-india-dpdp-ai-governance.md)** [2.4].
 
 ### 🗓️ October 2026 [Current Milestone] — Asymmetric Global Enforcement Waves
 *   **The Statutory Shifts:** 
