@@ -117,3 +117,14 @@ To insulate corporate networks against upcoming compliance audits and security t
 
 1. **Deploy a Standardized, Automated System Inventory Gate:** Eliminate "Shadow AI" by blocking deployment software pipelines until developers register the model use case, input datasets, and an executive **Certified System Owner ID** into a secure internal log [2.1].
 2. **Implement Mandatory Data Masking Prior to Model Ingestion:** Safeguard user privacy by embedding automated tokenization and **PII Scrubbing** layers into data engineering workflows, ensuring no raw personal data hits external foundation model endpoints or RAG caches [2.1].
+
+---
+
+### ⏳ Chronological Strategic Milestone Registry (2026–2028)
+Technology leads must coordinate with procurement and infrastructure units to clear these upcoming horizontal compliance horizons before statutory enforcement deactivates unvetted active systems:
+
+*   🗓️ **Late 2026 — regional Audit Finalizations:** Deadline for completion of regional self-assessment risk registries mandated by the Dubai Digital Authority [2.5] and the implementation of automated consumer opt-out scripts under state-level CPRA provisions in the United States [2.6].
+*   🗓️ **May 2027 — The General Purpose AI (GPAI) Deadline:** Under the **EU AI Act**, providers of General Purpose AI models must achieve absolute alignment with transparency criteria, technical documentation mandates, and explicit copyright provenance tracking laws [2.1].
+*   🗓️ **Mid 2027 — Singapore Risk Mapping Ceiling:** The final statutory deadline for MAS-regulated financial institutions in Singapore to complete full baseline risk mapping and active telemetry logging for all production applications [2.3].
+*   🗓️ **August 2, 2027 — Annex I Harmonized Product Integration:** The EU AI Act expands mandatory high-risk compliance gates to cover AI systems embedded as safety components inside physical products (e.g., medical equipment, aviation tracking systems, and automated automotive components) [2.1]. Non-compliance triggers the maximum **€35M or 7% global turnover penalty** tier [2.1].
+*   🗓️ **August 2, 2028 — Annex III Broad High-Risk Enforcement:** Full enforcement activates across all remaining High-Risk categories under the EU AI Act framework, forcing mandatory fundamental rights impact assessments (FRIAs) across public sector and critical infrastructure networks [2.1].
